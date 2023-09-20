@@ -29,20 +29,15 @@ closeBtn.addEventListener('click', () => {
     
 })
 
-// closeBtn.addEventListener('click', () => {
+// swiper
+const swiper = new Swiper('.swiper', {
+   
+    loop: true,
 
-//     const isClosed = mobileNav.classList.contains(navClosedClass);
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+    },
 
+});
 
-//     // Apply transition
-//     mobileNav.style.transition = `left ${isClosed ? '-300px' : '0'} ease-in-out 0.3s`;
-//     closeBtnIcn.style.transition = `transform ${isClosed ? 'rotate(180deg)' : 'rotate(0deg)'} ease-in-out 0.3s`;
-
-//     // Toggle classes
-//     mobileNav.classList.toggle(navOpenedClass, isClosed);
-//     mobileNav.classList.toggle(navClosedClass, !isClosed);
-
-//     closeBtnIcn.classList.toggle(arrowLeftClass, isClosed);
-//     closeBtnIcn.classList.toggle(arrowRightClass, !isClosed);
-
-// })
