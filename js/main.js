@@ -41,3 +41,18 @@ const swiper = new Swiper('.swiper', {
 
 });
 
+// faq
+
+const faqItems = document.querySelectorAll('.faq__item');
+
+faqItems.forEach((item) => {
+    const faqBtn = item.querySelector('.faq__btn');
+
+    item.addEventListener('click', () => {                              // Cuando hacemos click en faq__btn
+        const isOpen = item.classList.toggle('open');                   // faq__btn se le añade la clase 'open' -> h-full
+        const iconClass = isOpen ? 'ri-subtract-fill' : 'ri-add-fill';  // si se añadio 'open' el iconClass = menos : más
+        const iconElement = faqBtn.querySelector('i');                  // Buscamos el <i></i>
+        iconElement.classList = `${iconClass} text-2xl`;                // Cambiamos el icono según el valor de isOpen
+    })
+})
+
