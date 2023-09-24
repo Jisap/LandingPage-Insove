@@ -780,6 +780,10 @@ video {
   max-width: 320px;
 }
 
+.max-w-\[420px\] {
+  max-width: 420px;
+}
+
 .max-w-\[555px\] {
   max-width: 555px;
 }
@@ -1626,6 +1630,10 @@ h1,h2,h3,h4,h5,h6 {
 
   .xl\:justify-between {
     justify-content: space-between;
+  }
+
+  .xl\:gap-y-0 {
+    row-gap: 0px;
   }
 
   .xl\:gap-y-\[40px\] {
