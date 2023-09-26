@@ -864,6 +864,10 @@ video {
   gap: 2.25rem;
 }
 
+.gap-\[14px\] {
+  gap: 14px;
+}
+
 .gap-\[30px\] {
   gap: 30px;
 }
