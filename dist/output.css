@@ -1131,6 +1131,10 @@ video {
   padding-bottom: 1rem;
 }
 
+.pb-\[10px\] {
+  padding-bottom: 10px;
+}
+
 .pl-\[30px\] {
   padding-left: 30px;
 }
