@@ -84,6 +84,47 @@ sr.reveal('.services__item', {
     distance: '100px',
     interval: 100,
     origin: 'bottom'
-})
+});
 
+//appointment
+sr.reveal('.appointment__title');
+sr.reveal('.appointment__form');
+
+//testimonials
+sr.reveal('.testimonial');
+sr.reveal('.testimonial__container');
+
+//team
+sr.reveal('.team__title');
+sr.reveal('.team__slider');
+
+//faq
+sr.reveal('.faq__title');
+sr.reveal('.faq__item',{
+    delay: 600,
+    distance: '100px',
+    interval: 100,
+    origin: 'bottom'
+});
+
+//departments
+sr.reveal('.departments__bg');
+sr.reveal('.departments__container');
+
+//blog
+sr.reveal('.blog__title');
+sr.reveal('.blog__post', {
+    delay: 600,
+    distance: '100px',
+    interval: 100,
+    origin: 'bottom'
+});
+
+//brands
+sr.reveal('.brands__logo', {
+    delay: 600,
+    distance: '100px',
+    interval: 100,
+    origin: 'bottom'
+})
 
