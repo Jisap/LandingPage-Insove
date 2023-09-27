@@ -53,6 +53,37 @@ faqItems.forEach((item) => {
         const iconClass = isOpen ? 'ri-subtract-fill' : 'ri-add-fill';  // si se añadio 'open' el iconClass = menos : más
         const iconElement = faqBtn.querySelector('i');                  // Buscamos el <i></i>
         iconElement.classList = `${iconClass} text-2xl`;                // Cambiamos el icono según el valor de isOpen
-    })
+    });
+});
+
+// scroll reveal animations
+const sr = ScrollReveal({
+    origin: 'bottom',
+    distance:'60px',
+    duration: 3000,
+    delay: 600,
+});
+
+// hero
+sr.reveal('.hero__text', { origin: 'top' });
+sr.reveal('.hero__img');
+
+//stats
+sr.reveal('.stats__item',{
+    delay: 600,
+    distance: '100px',
+    interval: 100,
+    origin: 'top'
+});
+
+//services
+sr.reveal('.services');
+sr.reveal('.services__top')
+sr.reveal('.services__item', {
+    delay: 600,
+    distance: '100px',
+    interval: 100,
+    origin: 'bottom'
 })
+
 
