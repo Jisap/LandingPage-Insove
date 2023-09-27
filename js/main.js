@@ -138,7 +138,7 @@ sr.reveal('.footer__item', {
     distance: '100px',
     interval: 100,
     origin: 'bottom'
-})
+});
 
 
 
