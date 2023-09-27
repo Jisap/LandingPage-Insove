@@ -126,5 +126,19 @@ sr.reveal('.brands__logo', {
     distance: '100px',
     interval: 100,
     origin: 'bottom'
+});
+
+//newsletter
+sr.reveal('.newsletter');
+sr.reveal('.newsletter__container');
+
+//footer
+sr.reveal('.footer__item', {
+    delay: 600,
+    distance: '100px',
+    interval: 100,
+    origin: 'bottom'
 })
+
+
 
